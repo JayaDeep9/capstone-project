@@ -237,7 +237,7 @@ footer button{
 
 
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     nav {
         margin: 24px 48px;
         grid-template-columns: 1fr 1fr;
@@ -266,7 +266,7 @@ footer button{
     }
 }
 
-@media screen and (max-width: 840px) and (min-width: 768px) {
+@media (max-width: 840px) and (min-width: 768px) {
     .header {
         margin: 16px;
         grid-template-columns: 1fr;
@@ -279,7 +279,7 @@ footer button{
     }
 }
 
-@media screen and (max-width: 780px) {
+@media (max-width: 780px) {
     .header {
         margin: 16px;
         grid-template-columns: 1fr;
@@ -323,7 +323,7 @@ footer button{
     }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .header {
         margin: 8px;
     }
@@ -352,7 +352,7 @@ footer button{
     }
 }
 
-@media screen and (max-width:235px) and (min-width:50px){
+@media (max-width:235px) and (min-width:50px){
     .header a {
         font-size: 0.5rem;
         padding: 0.2rem 0.6rem;
