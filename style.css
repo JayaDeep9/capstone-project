@@ -238,7 +238,7 @@ footer button{
 
 
 @media screen and (max-width: 1200px) {
-    nav{
+    nav {
         margin: 24px 48px;
         grid-template-columns: 1fr 1fr;
     }
@@ -266,13 +266,28 @@ footer button{
     }
 }
 
+@media screen and (max-width: 840px) and (min-width: 768px) {
+    .header {
+        margin: 16px;
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .header-left,
+    .header-center,
+    .header-right {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .header {
         margin: 16px;
         grid-template-columns: 1fr;
         padding: 0.5rem;
     }
-    .header-left,.header-center, .header-right {
+    .header-left,
+    .header-center,
+    .header-right {
         justify-content: center;
     }
     .main h1 {
@@ -337,3 +352,9 @@ footer button{
     }
 }
 
+@media screen and (max-width:235px) and (min-width:50px){
+    .header a {
+        font-size: 0.5rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
