@@ -149,7 +149,7 @@ body{
     padding: 0;
     display: flex;
     gap: 24px;
-    overflow: auto;
+    overflow-x: auto;
 }
 
 .outerDiv::-webkit-scrollbar {
